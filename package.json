@@ -1,0 +1,35 @@
+{
+  "name": "animal-swap",
+  "version": "1.0.0",
+  "description": "React Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server",
+    "build": "webpack",
+    "start:dev": "npm run build & npm run start"
+  },
+  "author": "Alexandra Marks",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.2",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.8.0",
+    "eslint-plugin-react": "^7.28.0",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
